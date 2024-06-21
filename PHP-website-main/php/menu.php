@@ -1,6 +1,5 @@
 <div id="menu" class="main">
     <ul>
-        <li id="bem-vindo"><a href="index.php?atividade=bemvindo">Bem vindo à WebFit!</a></li>
         <li><a href="index.php">Página Inicial</a></li>
         <?php if (!$login): ?>
             <li id="login"><a href="login.php">Login</a></li>

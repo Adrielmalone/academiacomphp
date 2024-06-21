@@ -61,6 +61,7 @@ O WebFit foi pensado inicialmente para a matéria de Análise e Projeto de Siste
 * O PHP foi utilizado para a "escapada" de conteúdo de acordo com o status de login do usuário, para a validação de campos de formulário e informações recebidas via GET e POST, para a validação e criptografia de dados de senha dos usuários com comunicação via banco de dados, para a atualização, remoção e inserção de dados em banco de dados e para a autenticação de sessão de usuário.
 
 * Foram utilizados cookies no painel de atividades para a realização das inserções.
+.
 
 ## O MySQL
 
@@ -69,6 +70,8 @@ O WebFit foi pensado inicialmente para a matéria de Análise e Projeto de Siste
 * A tabela Users contém informações do usuário, id, nome, cpf, endereço, e-mail, senha, data de registro, data da última modificação das informações e uma variável booleana que indica se o usuário é admin ou não.
 
 * A tabela Atividades contém informações das atividades por usuário, visto que tem como chave estrangeira (Foreign Key) o campo id da tabela Users, a tabela contém o id da atividade, o nome da atividade, o dia da semana referente à atividade e a referência ao id do usuário.
+
+* O Banco de dados criado escolhido o nome de academia. Segue o arquivo banco de dados com ele criado 
 
 ### Para acessar o site
   Só é necessário alterar o arquivo 'database_credentials.php' inserindo suas informações de banco de dados
@@ -79,7 +82,4 @@ O WebFit foi pensado inicialmente para a matéria de Análise e Projeto de Siste
 ?>
   ```
   
-  ## Equipe:
-  ### Geovanna Alberti Correia de Freitas GRR20210548
-  ### Guilherme Penna Moro GRR20211633
-  ### Gianluca Notari Magnabosco GRR20211621
+
