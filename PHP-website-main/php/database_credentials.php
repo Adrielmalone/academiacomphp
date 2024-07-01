@@ -3,6 +3,6 @@
   $username = "root";
   $database_password = "";
   $dbname = "webacademia";
-  $table_users = "Users";
-  $table_atividades = "Atividades";
+  $table_users = "users";
+  $table_atividades = "atividades";
 ?>

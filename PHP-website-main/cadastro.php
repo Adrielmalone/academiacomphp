@@ -3,6 +3,7 @@
   require "php/sanitize.php";
   require "php/authenticate.php";
   require "php/validacpf.php";
+  require "php/database_credentials.php";
 
   if ($login) {
     header("Location: " . dirname($_SERVER['SCRIPT_NAME']) . "./index.php"); 
